@@ -13,4 +13,10 @@ class Song
   def self.count 
     @@count
   end 
+  
+  def self.genres 
+    @genre.uniq!
+  end 
+  
+  
 end 
