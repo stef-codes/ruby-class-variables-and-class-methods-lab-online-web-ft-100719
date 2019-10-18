@@ -26,5 +26,12 @@ class Song
     @@artists.uniq!
   end 
   
+  def self.genre_count 
+    genre_count = {
+      @genre => 
+    }
+  end  
+    
+    
   
 end 
